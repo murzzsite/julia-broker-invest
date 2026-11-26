@@ -217,7 +217,7 @@ details p{margin:0 0 18px;color:#2b3b52;max-width:42em}
   .scene__art{order:-1}
   .scene__art svg{max-height:38svh}
   .steps{min-height:230px}
-  .ref__grid{margin-inline:24px;padding-inline:24px}
+  .ref__grid{width:calc(100% - 48px);padding-inline:24px}
   .ref__art{max-width:200px}
 }
 @media (max-width:560px){
@@ -235,7 +235,7 @@ details p{margin:0 0 18px;color:#2b3b52;max-width:42em}
   .steps{min-height:250px}
   .pick{padding:24px 20px}
   .form{padding:20px 16px}
-  .ref__grid{margin-inline:16px;padding-inline:20px}
+  .ref__grid{width:calc(100% - 32px);padding-inline:20px}
   .about__links span,.contact__list span{width:92px}
   .but{padding-top:64px}
 }
